@@ -3,11 +3,11 @@ diff -crB apache-log4cxx-0.10.0/src/examples/cpp/console.cpp installed_packages/
 --- installed_packages/apache-log4cxx-0.10.0/src/examples/cpp/console.cpp	2010-03-22 22:42:32.915533627 +0100
 ***************
 *** 16,21 ****
---- 16,23 ----
+--- 16,22 ----
    */
-+ #include <string.h>
   #include <stdlib.h>
 + #include <string.h>
   #include <log4cxx/logger.h>
   #include <log4cxx/consoleappender.h>
   #include <log4cxx/simplelayout.h>
++ #include <stdio.h>
