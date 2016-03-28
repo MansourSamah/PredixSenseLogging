@@ -4,10 +4,12 @@ diff -crB apache-log4cxx-0.10.0/src/examples/cpp/console.cpp installed_packages/
 ***************
 *** 16,21 ****
 --- 16,22 ----
+--- 16,23 ----
    */
-+ #include <string.h>
-+ #include <stdio.h>  
+  
   #include <stdlib.h>
++ #include <string.h>
++ #include <stdio.h>
   #include <log4cxx/logger.h>
   #include <log4cxx/consoleappender.h>
   #include <log4cxx/simplelayout.h>
